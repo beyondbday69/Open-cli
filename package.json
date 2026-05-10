@@ -1,0 +1,12 @@
+{
+  "name": "open-cli",
+  "description": "terminal based agent that can build anything",
+  "repository": "https://github.com/beyondbday69/Open-cli",
+  "license": "MIT",
+  "bin": {
+    "open-cli": "bin/opencode"
+  },
+  "scripts": {
+    "postinstall": "node ./install.js"
+  }
+}

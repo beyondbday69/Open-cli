@@ -1,0 +1,15 @@
+{
+  "name": "OpenCode Example",
+  "version": "1.0.0",
+  "description": "An example JSON file",
+  "features": [
+    "Fast",
+    "Efficient",
+    "Helpful"
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": true,
+    "timeout": 30
+  }
+}
