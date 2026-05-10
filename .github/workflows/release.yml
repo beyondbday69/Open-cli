@@ -40,7 +40,7 @@ jobs:
           AUR_KEY: ${{ secrets.AUR_KEY }}
 
       - name: Publish to NPM
-        uses: evg4b/goreleaser-npm-publisher@v1
+        uses: evg4b/goreleaser-npm-publisher@v1.4.0
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package-name: "open-cli"
